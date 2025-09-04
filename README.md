@@ -1,8 +1,10 @@
 # PyBodyTrack
 
 pip install numpy pandas matplotlib mediapipe opencv-python
+
 pip install ffmpeg-python
-python animate_pose_csv.py --csv pose3d_mono.csv --out animation.mp4 --fps 30
+
+use this line in order to preview the animation       python animate_pose_csv.py --csv pose3d_mono.csv --out animation.mp4 --fps 30
 
 All codes require a webcam.
 
